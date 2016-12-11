@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     ListView mylistview;
     ArrayList<app> apps;
+    
     SharedPreferences animation;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
