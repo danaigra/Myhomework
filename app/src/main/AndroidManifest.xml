@@ -25,6 +25,9 @@
         <activity android:name=".ConstraintLayout3" />
         <activity android:name=".MyBirthdays" />
         <activity android:name=".settings" />
+        <activity android:name=".homework6" />
+        <activity android:name=".homework6_1" />
+        <activity android:name=".homework6_2"></activity>
     </application>
 
 </manifest>

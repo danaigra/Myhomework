@@ -52,5 +52,5 @@ public class settings extends AppCompatActivity {
                 animation.edit().putString("animation_name" , currAnimation).apply();
             }
         });
-        }
     }
+}

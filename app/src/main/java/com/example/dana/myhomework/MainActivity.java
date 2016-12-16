@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     ListView mylistview;
     ArrayList<app> apps;
-    
+
     SharedPreferences animation;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         app hw3 = new app("ConstraintLayout2",new Intent(getApplicationContext(),ConstraintLayout2.class));
         app hw4 = new app("ConstraintLayout3",new Intent(getApplicationContext(),ConstraintLayout3.class));
         app hw5 = new app("MyBirthdays",new Intent(getApplicationContext(),MyBirthdays.class));
+        app hw6 = new app("HomeWork 6",new Intent(getApplicationContext(),homework6.class));
 
 
         apps.add(hw1);
@@ -43,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         apps.add(hw3);
         apps.add(hw4);
         apps.add(hw5);
+        apps.add(hw6);
 
         ArrayAdapter<app> arrayadapter = new ArrayAdapter<app>(this, android.R.layout.simple_list_item_1,apps);
         mylistview.setAdapter(arrayadapter);
